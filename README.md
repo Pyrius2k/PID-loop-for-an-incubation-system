@@ -28,5 +28,5 @@ This image shows the same mouse colon after staining, allowing for the clear vis
 <br>
 
 ### 📊 Performance and Data
-![pid Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/tdistribution.png)
+![pid Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/pidgraph.png)
 The results of the PID control loop, showing how the system stabilizes the temperature over time.
