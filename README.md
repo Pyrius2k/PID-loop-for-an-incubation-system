@@ -11,14 +11,14 @@ The following images provide a visual overview of the project, from the design a
 The project involved the conception and development of an incubation system tailored for integration into a wide-field microscope. This required careful design and simulation to ensure optimal performance.
 
 A rendered CAD model of the incubator, showcasing its physical design.
-![Inc Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/incubator.png)
+<img src="https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/incubator.png" width="50%">
 <br>
-![NV Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/nv.png)
+<img src="https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/nv.png" width="30%">
 <br>
 This image shows the lattice of a nitrogen-vacancy (NV) center, a key component in the quantum microscope system used for NV-based sensing.
 <br>
 A COMSOL simulation illustrating the temperature distribution within the incubator, vital for ensuring stable physiological conditions.
-![Sim Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/tdistribution.png)
+<img src="https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/tdistribution.png" width="40%">
 <br>
 
 ### 🔬 Biological Samples
