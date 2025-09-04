@@ -15,7 +15,7 @@ This image shows the lattice of a nitrogen-vacancy (NV) center, a key component 
 ![NV Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/nv.png)
 <br>
 A COMSOL simulation illustrating the temperature distribution within the incubator.
-![Sim Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/incubator.png)
+![Sim Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/tdistribution.png)
 <br>
 
 ### 🔬 Biological Samples
