@@ -24,7 +24,7 @@ This is a brightfield image of a mouse colon captured using our quantum microsco
 ![bf Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/tdistribution.png)
 <br>
 This image shows the same mouse colon after staining, allowing for the clear visualization of layers like the serosa and mucosa.
-![he Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/tdistribution.png)
+![he Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/colon_he.png)
 <br>
 
 ### 📊 Performance and Data
