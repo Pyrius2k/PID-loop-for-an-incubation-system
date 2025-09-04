@@ -118,6 +118,12 @@ Future work will focus on:
 
 ## 📄 Background & Related Work
 
-📄 [![NV-based Quantum Sensing](https://img.shields.io/badge/NV--based%20Quantum%20Sensing-blue?style=for-the-badge)](https://www.nature.com/articles/s41586-019-1799-7)  
-📄 [![PID Control in Bioreactors](https://img.shields.io/badge/PID%20Control%20in%20Bioreactors-green?style=for-the-badge)](https://www.sciencedirect.com/science/article/pii/S1369703X21001794)
+This project builds upon advances in **NV-based quantum sensing** and **precision control in microscopy**:
+
+📄 [![Single-cell magnetic imaging using a quantum diamond microscope](https://img.shields.io/badge/Single--cell%20magnetic%20imaging%20using%20a%20quantum%20diamond%20microscope-blue?style=for-the-badge)](https://www.nature.com/articles/nmeth.3449)
+
+📄 [![Super-resolution-enabled widefield quantum diamond microscopy](https://img.shields.io/badge/Super--resolution--enabled%20widefield%20quantum%20diamond%20microscopy-green?style=for-the-badge)](https://pubs.acs.org/doi/10.1021/acsphotonics.3c01077)
+
+📄 [![The nitrogen-vacancy colour centre in diamond](https://img.shields.io/badge/The%20nitrogen--vacancy%20colour%20centre%20in%20diamond-orange?style=for-the-badge)](https://www.sciencedirect.com/science/article/pii/S0370157313000562)
+
 
