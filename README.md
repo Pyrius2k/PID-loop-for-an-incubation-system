@@ -12,7 +12,7 @@ A rendered CAD model of the incubator, showcasing its physical design.
 ![Inc Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/incubator.png)
 <br>
 This image shows the lattice of a nitrogen-vacancy (NV) center, a key component in the quantum microscope system.
-![NV Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/incubator.png)
+![NV Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/nv.png)
 <br>
 A COMSOL simulation illustrating the temperature distribution within the incubator.
 ![Sim Image](https://github.com/Pyrius2k/PID-loop-for-an-incubation-system/blob/main/incubator.png)
