@@ -24,6 +24,7 @@ The project involved multiple phases:
 ### Incubator Design and Simulation  
 - Custom chamber design tailored for integration into a wide-field microscope.  
 - Performed **thermal simulations (COMSOL)** to model heat distribution.  
+- Wrapped a **heating wire around the tube**, which was continuously flushed with **5% CO₂ and 95% air** to mimic physiological conditions and heated to **37 °C** under PID regulation.  
 - CAD model of the incubator and thermal mapping results are shown below:  
 
 <p align="center">
@@ -48,7 +49,7 @@ The project involved multiple phases:
 
 <p align="center">
   <img src="brightfield.png" alt="Brightfield Colon" width="300"/>
-  <img src="colon_he.png" alt="H&E Staining" width="300"/>
+  <img src="colon_he.png" alt="H&E Staining" width="280"/>
 </p>
 <p align="center">
   <em>Brightfield and H&E stained images of mouse colon PCTS</em>
@@ -118,12 +119,13 @@ Future work will focus on:
 
 ## 📄 Background & Related Work
 
-This project builds upon advances in **NV-based quantum sensing** and **precision control in microscopy**:
+This project builds upon advances in **NV-based quantum sensing** and **precision control in microscopy**.  
 
-📄 [![Single-cell magnetic imaging using a quantum diamond microscope](https://img.shields.io/badge/Single--cell%20magnetic%20imaging%20using%20a%20quantum%20diamond%20microscope-blue?style=for-the-badge)](https://www.nature.com/articles/nmeth.3449)
+**How NV centers detect magnetic fields (briefly):**  
+Nitrogen-vacancy (NV) centers in diamond act as **quantum sensors** because their electron spin states are sensitive to magnetic fields. By shining laser light and reading out their **spin-dependent fluorescence**, it is possible to detect extremely weak magnetic fields at the nanoscale, even under ambient conditions. This makes them ideal for biological imaging and long-term monitoring.  
 
-📄 [![Super-resolution-enabled widefield quantum diamond microscopy](https://img.shields.io/badge/Super--resolution--enabled%20widefield%20quantum%20diamond%20microscopy-green?style=for-the-badge)](https://pubs.acs.org/doi/10.1021/acsphotonics.3c01077)
+📄 [![Single-cell magnetic imaging using a quantum diamond microscope](https://img.shields.io/badge/Single--cell%20magnetic%20imaging%20using%20a%20quantum%20diamond%20microscope-blue?style=for-the-badge)](https://www.nature.com/articles/nmeth.3449)  
 
-📄 [![The nitrogen-vacancy colour centre in diamond](https://img.shields.io/badge/The%20nitrogen--vacancy%20colour%20centre%20in%20diamond-orange?style=for-the-badge)](https://www.sciencedirect.com/science/article/pii/S0370157313000562)
+📄 [![Super-resolution-enabled widefield quantum diamond microscopy](https://img.shields.io/badge/Super--resolution--enabled%20widefield%20quantum%20diamond%20microscopy-green?style=for-the-badge)](https://pubs.acs.org/doi/10.1021/acsphotonics.3c01077)  
 
-
+📄 [![The nitrogen-vacancy colour centre in diamond](https://img.shields.io/badge/The%20nitrogen--vacancy%20colour%20centre%20in%20diamond-orange?style=for-the-badge)](https://www.sciencedirect.com/science/article/pii/S0370157313000562)  
