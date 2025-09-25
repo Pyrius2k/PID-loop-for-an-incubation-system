@@ -2,7 +2,7 @@
 
 ---
 
-This repository contains the documentation and core files from a **master’s thesis project** in applied physics and biomedical engineering. The main focus was the design and implementation of a **PID (Proportional-Integral-Derivative) control loop** for a custom-built incubation system.  
+This repository contains the documentation and core files from a **master’s thesis project** in biomedical engineering. The main focus was the design and implementation of a **PID (Proportional-Integral-Derivative) control loop** for a custom-built incubation system.  
 
 The system is intended for **long-term cultivation and observation of biological tissue samples**, with a special emphasis on integration into **wide-field microscopes** utilizing **nitrogen-vacancy (NV) centers in diamond** for quantum sensing.
 
