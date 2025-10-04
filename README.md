@@ -44,17 +44,10 @@ The final setup required careful mechanical and thermal integration into the exi
   <br><em>Schematic of the Nitrogen-Vacancy (NV) center lattice in diamond.</em>
 </p>
 <p align="center">
-  <img src="chamber.png" alt="Incubator Real-Life Chamber" width="450"/>
+  <img src="chamber.png" alt="Incubator Real-Life Chamber" width="350"/>
   <br><em>The realized physical incubator chamber integrated into the microscope setup.</em>
 </p>
-<p align="center">
-  <img src="cad_microscope.png" alt="CAD Microscope Integration" width="450"/>
-  <br><em>3D render showing the incubator integration into the microscope stage.</em>
-</p>
-<p align="center">
-  <img src="real_microscope.jpg" alt="Real Microscope Setup" width="450"/>
-  <br><em>The realized experimental setup during a microscopy measurement.</em>
-</p>
+
 
 
 ### Gas and Humidification Control
@@ -66,22 +59,22 @@ To mimic physiological conditions, the system required a precise, humidified mix
   <br><em>System concept for gas mixing and humidification.</em>
 </p>
 <p align="center">
-  <img src="gasmixer.png" alt="Gas Mixer Setup" width="450"/>
-  <br><em>The realized $\text{CO}_2$/Air Gas Mixer unit (OKOLAB).</em>
+  <img src="gasmixer.png" alt="Gas Mixer Setup" width="250"/>
+  <br><em>The realized CO2/Air Gas Mixer unit (OKOLAB).</em>
 </p>
 
 **Core Gas Components:**
 
 <p align="center">
-  <img src="co2.png" alt="CO2 Source" width="300"/>
-  <br><em>$\text{CO}_2$ source and flow regulator.</em>
+  <img src="co2.png" alt="CO2 Source" width="200"/>
+  <br><em>CO2 source and flow regulator.</em>
 </p>
 <p align="center">
-  <img src="gauge.png" alt="Pressure Gauge" width="300"/>
+  <img src="gauge.png" alt="Pressure Gauge" width="200"/>
   <br><em>Pressure gauges used for regulating flow control.</em>
 </p>
 <p align="center">
-  <img src="humidifier.png" alt="Humidifier" width="300"/>
+  <img src="humidifier.png" alt="Humidifier" width="200"/>
   <br><em>Humidifier component to saturate the gas mixture.</em>
 </p>
 <p align="center">
@@ -91,11 +84,11 @@ To mimic physiological conditions, the system required a precise, humidified mix
 
 ### Electronics and PID Control Implementation
 
-The entire temperature control system was built around an Arduino microcontroller, implementing the PID loop and managing the NTC temperature feedback.
+The entire temperature control system was built around an **Arduino Nano** microcontroller, implementing the PID loop and managing the NTC temperature feedback. The heating element is controlled via a **MOSFET switch** and an **external power source** to handle the required current, ensuring stable and reliable regulation.
 
 <p align="center">
-  <img src="arduino_circuit.png" alt="arduinocircuit" width="500"/>
-  <br><em>Simplified electronic wiring diagram illustrating the connection between the Arduino, NTC sensor, and heating element for the PID loop.</em>
+  <img src="arduinocircuit.png" alt="Arduino Nano Control Unit" width="200"/>
+  <br><em>Photo of the realized Arduino Nano control unit, showing the integration of the microcontroller and the MOSFET for heater control.</em>
 </p>
 
 ### Biological Sample Preparation
