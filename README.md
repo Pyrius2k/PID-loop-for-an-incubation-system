@@ -94,7 +94,7 @@ To mimic physiological conditions, the system required a precise, humidified mix
 The entire temperature control system was built around an Arduino microcontroller, implementing the PID loop and managing the NTC temperature feedback.
 
 <p align="center">
-  <img src="arduino_circuit.png" alt="Arduino Circuit Diagram" width="500"/>
+  <img src="arduino_circuit.png" alt="arduinocircuit" width="500"/>
   <br><em>Simplified electronic wiring diagram illustrating the connection between the Arduino, NTC sensor, and heating element for the PID loop.</em>
 </p>
 
