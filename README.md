@@ -147,7 +147,7 @@ The entire temperature control system was built around an **Arduino Nano** micro
 | `gauge.png` | **Photo of the pressure gauges used for flow control** |
 | `humidifier.png` | **Photo of the humidifier component** |
 | `airpump.png` | **Photo of the air pump used for gas flow** |
-| `arduino_circuit.png` | **Diagram of the core Arduino control circuit** |
+| `arduinocircuit.png` | **Diagram of the core Arduino control circuit** |
 | `brightfield.png` | Brightfield microscopy image of colon PCTS |
 | `colon_he.png` | H&E stained colon image |
 | `pidgraph.png` | PID performance graph |
