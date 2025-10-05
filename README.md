@@ -27,12 +27,18 @@ The project involved the design and realization of a multi-component system, foc
 The custom chamber was designed to fit precisely within the mechanical constraints of a wide-field microscope. Temperature stability was achieved using a heating wire wrapped around the core component, regulated by the custom Arduino-based PID loop.
 
 <p align="center">
-  <img src="incubator.png" alt="Incubator CAD" width="450"/>
-  <br><em>CAD model of the custom incubator.</em>
-</p>
-<p align="center">
-  <img src="tdistribution.png" alt="COMSOL Simulation" width="450"/>
-  <br><em>COMSOL thermal simulation result showing temperature distribution.</em>
+  <table border="0" style="width: 100%;">
+    <tr>
+      <td style="width: 50%; text-align: center;">
+        <img src="incubator.png" alt="Incubator CAD" width="400"/>
+        <br><em>CAD model of the custom incubator.</em>
+      </td>
+      <td style="width: 50%; text-align: center;">
+        <img src="tdistribution.png" alt="COMSOL Simulation" width="400"/>
+        <br><em>COMSOL thermal simulation result showing temperature distribution.</em>
+      </td>
+    </tr>
+  </table>
 </p>
 
 ### System Integration into Wide-Field Microscope
@@ -44,11 +50,32 @@ The final setup required careful mechanical and thermal integration into the exi
   <br><em>Schematic of the Nitrogen-Vacancy (NV) center lattice in diamond.</em>
 </p>
 <p align="center">
-  <img src="chamber.png" alt="Incubator Real-Life Chamber" width="350"/>
-  <br><em>The realized physical incubator chamber integrated into the microscope setup.</em>
+  <table border="0" style="width: 100%;">
+    <tr>
+      <td style="width: 50%; text-align: center;">
+        <img src="membranprobes.png" alt="Tissue Slices on Membrane" width="300"/>
+        <br><em>Five tissue slices placed on the semipermeable membrane mounted on the incubator chamber. The <b>culture medium</b> is essential to sustain the probes' viability.</em>
+      </td>
+      <td style="width: 50%; text-align: center;">
+        <img src="chamber.png" alt="Incubator Real-Life Chamber" width="350"/>
+        <br><em>The realized physical incubator chamber integrated into the microscope setup.</em>
+      </td>
+    </tr>
+  </table>
 </p>
 
+---
 
+### Biological Sample Context: Cell Transport Mechanisms
+
+To maintain the viability of the **precision-cut tissue slices (PCTS)**, understanding the necessary mass transport of nutrients and waste products across the cell membranes is crucial. The tissue is sustained by a <b>culture medium</b>, which facilitates these processes.
+
+<p align="center">
+  <img src="cellmechanism.png" alt="Cell Transport Mechanisms" width="450"/>
+  <br><em>Schematic illustrating the three fundamental mechanisms for molecular transport across a cell membrane: <b>a) Simple Diffusion</b>, <b>b) Facilitated Diffusion</b>, and <b>c) Active Transport</b>. These mechanisms are essential for the exchange of gases, nutrients, and waste, ensuring tissue vitality.</em>
+</p>
+
+---
 
 ### Gas and Humidification Control
 
@@ -58,24 +85,31 @@ To mimic physiological conditions, the system required a precise, humidified mix
   <img src="gasconcept.png" alt="Gas Control Concept" width="450"/>
   <br><em>System concept for gas mixing and humidification.</em>
 </p>
-<p align="center">
-  <img src="gasmixer.png" alt="Gas Mixer Setup" width="250"/>
-  <br><em>The realized CO2/Air Gas Mixer unit (OKOLAB).</em>
-</p>
 
 **Core Gas Components:**
 
 <p align="center">
+  <img src="gasmixer.png" alt="Gas Mixer Setup" width="250"/>
+  <br><em>The realized CO2/Air Gas Mixer unit (OKOLAB).</em>
+</p>
+<p align="center">
   <img src="co2.png" alt="CO2 Source" width="200"/>
   <br><em>CO2 source and flow regulator.</em>
 </p>
+
 <p align="center">
-  <img src="gauge.png" alt="Pressure Gauge" width="200"/>
-  <br><em>Pressure gauges used for regulating flow control.</em>
-</p>
-<p align="center">
-  <img src="humidifier.png" alt="Humidifier" width="200"/>
-  <br><em>Humidifier component to saturate the gas mixture.</em>
+  <table border="0" style="width: 100%;">
+    <tr>
+      <td style="width: 50%; text-align: center;">
+        <img src="gauge.png" alt="Pressure Gauge" width="200"/>
+        <br><em>Pressure gauges used for regulating flow control.</em>
+      </td>
+      <td style="width: 50%; text-align: center;">
+        <img src="humidifier.png" alt="Humidifier" width="200"/>
+        <br><em>Humidifier component to saturate the gas mixture.</em>
+      </td>
+    </tr>
+  </table>
 </p>
 <p align="center">
   <img src="airpump.png" alt="Air Pump" width="300"/>
@@ -97,11 +131,19 @@ The entire temperature control system was built around an **Arduino Nano** micro
 -   Acquired microscopy images verified tissue vitality and structural integrity.
 
 <p align="center">
-  <img src="brightfield.png" alt="Brightfield Colon" width="350"/>
-</p>
-<p align="center">
-  <img src="colon_he.png" alt="H&E Staining" width="350"/>
-  <br><em>Brightfield (Top) and H&E stained (Bottom) images of mouse colon PCTS showing preserved tissue structure after cultivation.</em>
+  <table border="0" style="width: 100%;">
+    <tr>
+      <td style="width: 50%; text-align: center;">
+        <img src="brightfield.png" alt="Brightfield Colon" width="350"/>
+        <br><em>Brightfield microscopy image of colon PCTS.</em>
+      </td>
+      <td style="width: 50%; text-align: center;">
+        <img src="colon_he.png" alt="H&E Staining" width="350"/>
+        <br><em>H&E stained image showing preserved tissue structure.</em>
+      </td>
+    </tr>
+  </table>
+  <br><em>Microscopy images of mouse colon PCTS showing preserved tissue structure after cultivation.</em>
 </p>
 
 ---
